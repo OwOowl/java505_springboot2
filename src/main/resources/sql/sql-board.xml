@@ -50,4 +50,12 @@
         WHERE
             idx = #{idx}
     </delete>
+    <update id="updateHitCnt" parameterType="int">
+        UPDATE
+            t_board
+        SET
+            hit_cnt = hit_cnt + 1
+        WHERE
+            idx = #{idx}
+    </update>
 </mapper>
