@@ -93,4 +93,6 @@ public class BoardController {
         boardService.deleteBoard(idx);
         return "redirect:/board";
     }
+
+
 }
