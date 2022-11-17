@@ -16,4 +16,6 @@ public interface BoardMapper {
     public void updateBoard(BoardDto board) throws Exception;
 
     public void deleteBoard(int idx) throws Exception;
+
+    public void updateHitCnt(int idx) throws Exception;
 }
